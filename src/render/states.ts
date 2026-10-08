@@ -18,7 +18,7 @@ export function renderEmpty(query: string): string {
         : 'No se encontraron países en la región seleccionada.';
 
     return `
-        <div class="col-span-full text-center text-slate-500 py-10">
+        <div class="col-span-full text-center text-slate-500 py-10" role="status" aria-live="polite">
             <p>${message}</p>
             <p>Revisa el nombre o cambia la región.</p>
         </div>
