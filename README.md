@@ -42,7 +42,7 @@ pnpm run preview
 
 - Repositorio: [Dise-o-web-](https://github.com/josehrdez127-hue/Dise-o-web-).
 - Pull Request: [#1, anunciar los resultados vacíos](https://github.com/josehrdez127-hue/Dise-o-web-/pull/1).
-- Producción: [dise-o-web-neon.vercel.app](https://dise-o-web-neon.vercel.app/); deployment `Ready` desde `main` en el commit `27d9c10`.
-- Preview del PR: pendiente del deployment de `feat/announce-empty-search-results`.
+- Producción: [dise-o-web-neon.vercel.app](https://dise-o-web-neon.vercel.app/).
+- Preview del PR: [feat/announce-empty-search-results](https://dise-o-web-git-feat-announce-empty-sea-f7d07c-josehrdez127-2465.vercel.app/).
 
-La regla de `main` exige Pull Request sin requerir aprobaciones. El deployment de producción corresponde al baseline de `main`; no incluye la mejora del PR, que sigue abierta y pendiente de revisión y merge.
+La regla de `main` exige Pull Request sin requerir aprobaciones. Vercel publica `main` en producción y las ramas de PR en previews.
