@@ -1,48 +1,21 @@
-# Explorer App
+# Entrega: Explorer App Vanilla TypeScript
 
-Aplicación web para explorar países, buscar por nombre, filtrar por región y consultar el detalle de cada país.
+La aplicación independiente del laboratorio está en [`explorer-app-lab-3/`](explorer-app-lab-3/). La versión publicada originalmente permanece en la raíz del repositorio; esta rama añade la nueva entrega sin reemplazarla.
 
-## Stack
-
-- TypeScript
-- Vite
-- Tailwind CSS v4
-- Datos de países locales en `public/countries.json`, con consulta opcional a REST Countries para el detalle
-
-## Requisitos
-
-- Node.js compatible con Vite 8
-- pnpm
-
-## Ejecución
+## Ejecutar la entrega
 
 ```sh
+cd explorer-app-lab-3
 pnpm install
-pnpm run dev
+pnpm dev
 ```
 
-Para verificar la compilación de producción y previsualizarla localmente:
+Requisitos: Node.js 20.19+ o 22.12+ y pnpm. Para compilar: `pnpm build`.
 
-```sh
-pnpm run build
-pnpm run preview
-```
+La guía completa, estructura, fuente de datos e instrucciones están en [`explorer-app-lab-3/README.md`](explorer-app-lab-3/README.md).
 
-## Captura
+## Versión evaluable
 
-![Explorer App en escritorio](Responsively-Screenshots/MacBook%20Pro-1788661057880.jpeg)
+Repositorio: [josehrdez127-hue/Dise-o-web-](https://github.com/josehrdez127-hue/Dise-o-web-)
 
-## Verificación local
-
-- `pnpm run build`: correcto (`tsc` y `vite build`).
-- Revisión en navegador local: búsqueda, filtro por región, navegación al detalle de Canadá y anuncio del estado sin resultados comprobados.
-- Resultado de revisión: las funciones comprobadas siguen operativas; el estado sin resultados se anuncia con `aria-live="polite"`.
-
-## Publicación y Pull Request
-
-- Repositorio: [Dise-o-web-](https://github.com/josehrdez127-hue/Dise-o-web-).
-- Pull Request: [#1, anunciar los resultados vacíos](https://github.com/josehrdez127-hue/Dise-o-web-/pull/1).
-- Producción: [dise-o-web-neon.vercel.app](https://dise-o-web-neon.vercel.app/).
-- Preview del PR: [feat/announce-empty-search-results](https://dise-o-web-git-feat-announce-empty-sea-f7d07c-josehrdez127-2465.vercel.app/).
-
-La regla de `main` exige Pull Request sin requerir aprobaciones. Vercel publica `main` en producción y las ramas de PR en previews.
+Rama Vanilla TypeScript: [`entrega-lab-3`](https://github.com/josehrdez127-hue/Dise-o-web-/tree/entrega-lab-3/explorer-app-lab-3)
