@@ -41,7 +41,8 @@ pnpm run preview
 ## Publicación y Pull Request
 
 - Repositorio: [Dise-o-web-](https://github.com/josehrdez127-hue/Dise-o-web-).
-- Pull Request: [Abrir el formulario para la rama de mejora](https://github.com/josehrdez127-hue/Dise-o-web-/pull/new/feat/announce-empty-search-results); pendiente de crear.
-- Producción: pendiente de conectar el repositorio a Vercel y publicar el proyecto.
+- Pull Request: [#1, anunciar los resultados vacíos](https://github.com/josehrdez127-hue/Dise-o-web-/pull/1).
+- Producción: [dise-o-web-neon.vercel.app](https://dise-o-web-neon.vercel.app/); deployment `Ready` desde `main` en el commit `27d9c10`.
+- Preview del PR: pendiente del deployment de `feat/announce-empty-search-results`.
 
-La protección de `main`, la revisión del PR, la preview y la URL de producción siguen pendientes. GitHub solicita iniciar sesión para completar el PR y Vercel devuelve `403` al iniciar la importación.
+La regla de `main` exige Pull Request sin requerir aprobaciones. El deployment de producción corresponde al baseline de `main`; no incluye la mejora del PR, que sigue abierta y pendiente de revisión y merge.
