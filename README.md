@@ -40,7 +40,8 @@ pnpm run preview
 
 ## Publicación y Pull Request
 
+- Repositorio: [Dise-o-web-](https://github.com/josehrdez127-hue/Dise-o-web-).
+- Pull Request: [Abrir el formulario para la rama de mejora](https://github.com/josehrdez127-hue/Dise-o-web-/pull/new/feat/announce-empty-search-results); pendiente de crear.
 - Producción: pendiente de conectar el repositorio a Vercel y publicar el proyecto.
-- Pull Request: pendiente de publicar la rama de mejora y abrir el PR hacia `main`.
 
-La protección de `main`, la revisión del PR, la preview y la URL de producción siguen pendientes hasta completar la conexión y configuración de GitHub y Vercel.
+La protección de `main`, la revisión del PR, la preview y la URL de producción siguen pendientes. GitHub solicita iniciar sesión para completar el PR y Vercel devuelve `403` al iniciar la importación.
